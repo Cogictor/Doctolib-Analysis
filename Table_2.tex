@@ -1,0 +1,40 @@
+\begin{table}[]
+\caption{Regression Table for Minimum Fee}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{@{\extracolsep{2pt}}l*{4}{c}@{}}
+\hline\hline
+& \multicolumn{2}{c}{Italy} & \multicolumn{2}{c}{France} \\
+\cline{2-3}
+\cline{4-5}
+ & fee & fee & fee & fee \\
+\hline
+Waiting Time & 0.03\sym{**} & 0.04\sym{**} & -0.01\sym{**} & -0.01\sym{**} \\
+ & (0.01) & (0.01) & (0.00) & (0.00) \\
+Accept Check & 1.41 & 1.48 & -1.65\sym{**} & -1.47\sym{**} \\
+ & (1.43) & (1.43) & (0.39) & (0.39) \\
+Accept Cash & -6.04\sym{**} & -6.32\sym{**} & 2.30\sym{**} & 2.08\sym{**} \\
+ & (2.04) & (2.04) & (0.42) & (0.42) \\
+Accept Credit Card & 4.40\sym{*} & 5.02\sym{*} & -1.41\sym{**} & -1.41\sym{**} \\
+ & (2.02) & (2.04) & (0.24) & (0.24) \\
+Accessible & -0.80 & -0.85 & 2.70\sym{**} & 2.30\sym{**} \\
+ & (0.95) & (0.96) & (0.23) & (0.23) \\
+Handicap & -0.47 & -0.38 & -3.17\sym{**} & -3.12\sym{**} \\
+ & (0.91) & (0.91) & (0.21) & (0.21) \\
+Telehealth & -0.00 & -0.00 & -0.85\sym{**} & -1.22\sym{**} \\
+ & (0.00) & (0.00) & (0.22) & (0.22) \\
+Home Visit & -6.15\sym{*} & -6.93\sym{*} & -3.32\sym{**} & -3.49\sym{**} \\
+ & (3.02) & (3.03) & (0.29) & (0.29) \\
+Languages & Yes & No & Yes & No \\
+
+\hline
+Obs & 9383 & 9383 & 46521 & 46521 \\
+Adj. R\sym{2} & 0.18 & 0.18 & 0.25 & 0.26 \\
+F-stat & 55.86 & 36.51 & 477.45 & 255.45 \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Homoskedastic Standard Errors}\vspace{-.25em} \\
+\multicolumn{5}{l}{\footnotesize Specialty variables are omitted}\vspace{-.25em} \\
+\multicolumn{5}{l}{\footnotesize \sym{+} p $<$ .1, * p $<$ .05, **p $<$ .01}
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,41 @@
+\begin{table}[]
+\caption{Regression Table for Waiting Time}
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{@{\extracolsep{2pt}}l*{6}{c}@{}}
+\hline\hline
+& \multicolumn{2}{c}{Italy} & \multicolumn{2}{c}{France} & \multicolumn{2}{c}{Germany} \\
+\cline{2-3}
+\cline{4-5}
+\cline{6-7}
+ & wait & wait & wait & wait & wait & wait \\
+\hline
+Minimum Fee & 0.03\sym{**} & 0.03\sym{**} & -0.35\sym{**} & -0.31\sym{**} &  &  \\
+ & (0.01) & (0.01) & (0.04) & (0.04) &  &  \\
+Accept Check & -3.62\sym{**} & -3.49\sym{**} & 18.04\sym{**} & 15.72\sym{**} &  &  \\
+ & (1.29) & (1.28) & (3.08) & (3.08) &  &  \\
+Accept Cash & -1.95 & -1.76 & -24.12\sym{**} & -21.68\sym{**} &  &  \\
+ & (1.83) & (1.83) & (3.31) & (3.31) &  &  \\
+Accept Credit Card & 3.77\sym{*} & 2.09 & 1.43 & 1.40 &  &  \\
+ & (1.81) & (1.83) & (1.88) & (1.88) &  &  \\
+Accessible & -3.58\sym{**} & -2.96\sym{**} & -8.88\sym{**} & -7.13\sym{**} & -0.81 & -0.67 \\
+ & (0.85) & (0.86) & (1.83) & (1.83) & (2.32) & (2.32) \\
+Handicap & -0.14 & -0.37 & 8.80\sym{**} & 8.84\sym{**} & 0.41 & 0.28 \\
+ & (0.82) & (0.82) & (1.63) & (1.63) & (1.98) & (1.98) \\
+Telehealth & 0.00 & -0.00 & -15.21\sym{**} & -13.52\sym{**} & -4.34 & -4.11 \\
+ & (0.00) & (0.00) & (1.74) & (1.75) & (3.13) & (3.14) \\
+Home Visit & -7.56\sym{**} & -5.61\sym{*} & -6.77\sym{**} & -6.18\sym{**} & -8.67 & -7.28 \\
+ & (2.71) & (2.72) & (2.30) & (2.30) & (6.69) & (6.71) \\
+Languages & Yes & No & Yes & No & Yes & No \\
+
+\hline
+Obs & 9383 & 9383 & 46521 & 46521 & 15869 & 15869 \\
+Adj. R\sym{2} & 0.11 & 0.12 & 0.28 & 0.28 & 0.15 & 0.15 \\
+F-stat & 33.39 & 22.73 & 547.59 & 287.83 & 82.49 & 44.54 \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Homoskedastic Standard Errors}\vspace{-.25em} \\
+\multicolumn{7}{l}{\footnotesize Specialty variables are omitted}\vspace{-.25em} \\
+\multicolumn{7}{l}{\footnotesize \sym{+} p $<$ .1, * p $<$ .05, **p $<$ .01}
+\end{tabular}
+}
+\end{table}
