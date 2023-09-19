@@ -1,2 +1,4 @@
-# Doctolib-Analysis
-Collection and Visualization: Analyzing Doctolib's Medical Specializations Across Countries
+# Analyzing Doctolib's Medical Specializations Across Countries
+MODS203: Data analysis in economics I: Collection and Visualization
+
+In this project, data were collected from physicians and their appointment options in 3 different countries (France, Germany, and Italy), using Doctolib's website, to compare different parameters and patterns between the countries. Thus, the searches for doctors were made on each site using their specialties as the basis of the search; and, from each doctor, their spoken languages, their minimum consultation price, and their availability, among other data, were collected. With the data collected 3 topics will be addressed and analyzed: the availability of languages spoken in various specialties, comparing with French immigration data; a comparison between the payment methods across countries; and a prediction for the minimum price and waiting time for consultation. Then, these differences will be observed and discussed in how they affect and represent each health care system.
